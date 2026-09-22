@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold: #c9ad79;
+    --gold-dark: #a88849;
+    --gold-light: #f5ede0;
+    --charcoal: #151515;
+    --charcoal-light: #242424;
+    --cream: #faf9f6;
+    --border-beige: #eee8de;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #faf9f6;
+    color: #151515;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Luxury Helpers */
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #8b7650;
+  font-weight: 600;
+}
+
+.heroart {
+  height: 480px;
+  background: linear-gradient(135deg, #e3ded5, #8d8578);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.heroart::after {
+  content: "A.ROYAL";
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 120px;
+  color: rgba(255, 255, 255, 0.18);
+  transform: rotate(-15deg);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  pointer-events: none;
+  position: absolute;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf9f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4ccbd;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a88849;
+}

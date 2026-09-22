@@ -1,0 +1,6 @@
+{
+  "name": "A.ROYAL - Luxury Watches & Fragrances",
+  "description": "Curated luxury watches and signature fragrances with real-time order processing and a secure admin management portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
