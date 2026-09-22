@@ -147,6 +147,155 @@
         "Volume": "100ml / 3.4 fl. oz."
       },
       "createdAt": "2026-02-05T12:00:00.000Z"
+    },
+    {
+      "id": "celestial-tourbillon",
+      "name": "Celestial Tourbillon",
+      "category": "Watches",
+      "price": 45000,
+      "old_price": 52000,
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80",
+      "description": "Exquisite open-worked skeleton dial showcasing a precision mechanical caliber, deep midnight-blue chapter ring, and genuine alligator-grain leather strap.",
+      "stock": 8,
+      "featured": true,
+      "specifications": {
+        "Case": "43mm Forged 316L Stainless Steel",
+        "Movement": "Skeletonized Automatic Mechanical Caliber",
+        "Glass": "Anti-Reflective Sapphire Crystal",
+        "WaterResistance": "5 ATM (50 Meters)",
+        "Strap": "Midnight Blue Alligator-Embossed Calfskin"
+      },
+      "createdAt": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "aquamarine-diver",
+      "name": "Aquamarine Diver",
+      "category": "Watches",
+      "price": 28500,
+      "old_price": 33000,
+      "image": "https://images.unsplash.com/photo-1547996160-71dfabb1a7b4?auto=format&fit=crop&w=900&q=80",
+      "description": "Professional maritime dive watch with unidirectional ceramic bezel, luminous Super-LumiNova markers, and robust screw-down crown.",
+      "stock": 14,
+      "featured": true,
+      "specifications": {
+        "Case": "42mm Marine-Grade Stainless Steel",
+        "Movement": "High-Precision Japanese Automatic",
+        "Glass": "Scratchproof Flat Sapphire with Date Cyclops",
+        "WaterResistance": "30 ATM (300 Meters)",
+        "Strap": "Solid Oyster-Link Steel Bracelet with Diver Extension"
+      },
+      "createdAt": "2026-03-02T10:00:00.000Z"
+    },
+    {
+      "id": "heritage-gold-classic",
+      "name": "Heritage Gold Classic",
+      "category": "Watches",
+      "price": 22000,
+      "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=900&q=80",
+      "description": "Ultra-thin champagne gold dress watch with elegant Roman numeral indices and hand-polished bevelled edges.",
+      "stock": 18,
+      "featured": false,
+      "specifications": {
+        "Case": "38mm 18K Yellow Gold Ion-Plated Steel",
+        "Movement": "Ultra-Slim Swiss-Engineered Quartz",
+        "Glass": "Sapphire-Coated Mineral Crystal",
+        "WaterResistance": "3 ATM",
+        "Strap": "Hand-Stitched Onyx Black Saffiano Leather"
+      },
+      "createdAt": "2026-03-03T10:00:00.000Z"
+    },
+    {
+      "id": "phantom-carbon",
+      "name": "Phantom Carbon Chrono",
+      "category": "Watches",
+      "price": 38000,
+      "old_price": 44000,
+      "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=900&q=80",
+      "description": "Stealth matte forged carbon case paired with high-contrast tachymeter sub-dials and an ergonomic vulcanized rubber sport strap.",
+      "stock": 9,
+      "featured": true,
+      "specifications": {
+        "Case": "44mm Forged Carbon Fiber & Grade 5 Titanium",
+        "Movement": "High-Beat Split-Second Chronograph",
+        "Glass": "Double-Curved Sapphire with AR Coating",
+        "WaterResistance": "10 ATM (100 Meters)",
+        "Strap": "Perforated High-Grade Vulcanized Rubber"
+      },
+      "createdAt": "2026-03-04T10:00:00.000Z"
+    },
+    {
+      "id": "sultans-blend",
+      "name": "Sultan's Blend Extrait",
+      "category": "Perfumes",
+      "price": 9500,
+      "old_price": 11000,
+      "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=900&q=80",
+      "description": "Regal oriental masterpiece boasting aged Taif rose petals, pure wild agarwood, royal ambergris, and sun-dried Persian saffron.",
+      "stock": 20,
+      "featured": true,
+      "specifications": {
+        "Concentration": "Extrait de Parfum (35% Pure Perfume Oil)",
+        "TopNotes": "Taif Rose, Iranian Saffron, Pink Pepper",
+        "HeartNotes": "Cambodian Oud, Golden Amber, Frankincense",
+        "BaseNotes": "Royal Ambergris, Mysore Sandalwood, Dark Leather",
+        "Volume": "100ml / 3.4 fl. oz."
+      },
+      "createdAt": "2026-03-05T10:00:00.000Z"
+    },
+    {
+      "id": "imperial-leather",
+      "name": "Imperial Leather & Woods",
+      "category": "Perfumes",
+      "price": 7999,
+      "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=900&q=80",
+      "description": "Opulent Tuscan leather intertwined with zesty Italian bergamot, dark vetiver, and smoked cedarwood for an unforgettable commanding trail.",
+      "stock": 25,
+      "featured": true,
+      "specifications": {
+        "Concentration": "Eau de Parfum (26% Oil)",
+        "TopNotes": "Italian Bergamot, Cardamom, Clary Sage",
+        "HeartNotes": "Tuscan Leather, Smoked Cedar, Violet Leaf",
+        "BaseNotes": "Haitian Vetiver, Amber, Tonka Bean",
+        "Volume": "100ml / 3.4 fl. oz."
+      },
+      "createdAt": "2026-03-06T10:00:00.000Z"
+    },
+    {
+      "id": "white-amber-crystal",
+      "name": "White Amber Crystal",
+      "category": "Perfumes",
+      "price": 6800,
+      "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=900&q=80",
+      "description": "Ethereal crystal-clean luxury opening with white jasmine blossoms, fresh cedar sprigs, warm solar amber, and a soft velvet musk veil.",
+      "stock": 30,
+      "featured": false,
+      "specifications": {
+        "Concentration": "Eau de Parfum (24% Oil)",
+        "TopNotes": "White Freesia, Jasmine Petals, Sweet Neroli",
+        "HeartNotes": "Crystalline White Amber, Virginian Cedarwood",
+        "BaseNotes": "Cashmeran, Velvet White Musk, Golden Benzoin",
+        "Volume": "100ml / 3.4 fl. oz."
+      },
+      "createdAt": "2026-03-07T10:00:00.000Z"
+    },
+    {
+      "id": "royal-tobacco-bourbon",
+      "name": "Royal Tobacco & Bourbon",
+      "category": "Perfumes",
+      "price": 8900,
+      "old_price": 10200,
+      "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80",
+      "description": "Addictive warm blend of cured tobacco blossom, aged Kentucky bourbon vanilla, roasted cacao, and golden honeycomb.",
+      "stock": 16,
+      "featured": true,
+      "specifications": {
+        "Concentration": "Extrait de Parfum (30% Oil)",
+        "TopNotes": "Tobacco Blossom, Spiced Cinnamon, Star Anise",
+        "HeartNotes": "Bourbon Vanilla Pod, Roasted Cacao, Tonka Bean",
+        "BaseNotes": "Blonde Woods, Aged Tobacco Leaf, Honey Resin",
+        "Volume": "100ml / 3.4 fl. oz."
+      },
+      "createdAt": "2026-03-08T10:00:00.000Z"
     }
   ],
   "orders": [

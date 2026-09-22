@@ -1,18 +1,20 @@
 import React from 'react';
-import { ShoppingBag, Search, Menu, X, Compass } from 'lucide-react';
+import { ShoppingBag, Search, Menu, X, Compass, ShieldCheck } from 'lucide-react';
 
 interface NavbarProps {
   cartCount: number;
   onOpenCart: () => void;
   onOpenTrackOrder: () => void;
   onNavigateHome: () => void;
+  onOpenAdmin?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
   cartCount,
   onOpenCart,
   onOpenTrackOrder,
-  onNavigateHome
+  onNavigateHome,
+  onOpenAdmin
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
@@ -60,6 +62,16 @@ export const Navbar: React.FC<NavbarProps> = ({
               <Compass className="w-3.5 h-3.5 text-[#8b7650]" />
               Track Order
             </button>
+            {onOpenAdmin && (
+              <button
+                onClick={onOpenAdmin}
+                className="flex items-center gap-1.5 hover:text-[#151515] hover:border-b-2 hover:border-[#c9ad79] pb-1 transition-all cursor-pointer text-[#8b7650] font-semibold"
+                title="Admin Security Portal"
+              >
+                <ShieldCheck className="w-3.5 h-3.5 text-[#a88849]" />
+                Admin
+              </button>
+            )}
           </nav>
 
           {/* Right Action Icons */}
@@ -73,6 +85,18 @@ export const Navbar: React.FC<NavbarProps> = ({
               <Search className="w-3.5 h-3.5" />
               <span>Track</span>
             </button>
+
+            {/* Admin quick button */}
+            {onOpenAdmin && (
+              <button
+                onClick={onOpenAdmin}
+                title="Admin Security Portal"
+                className="hidden sm:flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1.5 text-[#8b7650] hover:text-[#151515] hover:bg-[#eee8de]/50 rounded transition-colors"
+              >
+                <ShieldCheck className="w-3.5 h-3.5 text-[#a88849]" />
+                <span>Admin</span>
+              </button>
+            )}
 
             {/* Cart Bag */}
             <button
@@ -134,6 +158,18 @@ export const Navbar: React.FC<NavbarProps> = ({
               <Compass className="w-4 h-4" />
               Track Order Status
             </button>
+            {onOpenAdmin && (
+              <button
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  onOpenAdmin();
+                }}
+                className="text-left px-2 py-2 hover:bg-[#eee8de] rounded transition-colors flex items-center gap-2 text-[#a88849] font-semibold"
+              >
+                <ShieldCheck className="w-4 h-4" />
+                Admin Security Portal
+              </button>
+            )}
           </div>
         )}
       </div>

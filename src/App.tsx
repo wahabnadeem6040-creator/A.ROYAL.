@@ -202,6 +202,7 @@ export default function App() {
         onNavigateHome={() => {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }}
+        onOpenAdmin={navigateToAdmin}
       />
 
       <main className="flex-1">
